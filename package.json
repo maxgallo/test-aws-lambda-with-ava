@@ -1,0 +1,30 @@
+{
+  "name": "test-aws-lambda-with-ava",
+  "version": "1.0.0",
+  "description": "Test AWS Lambda functions with AVA",
+  "main": "index.js",
+  "repository": "git@github.com:maxgallo/test-aws-lambda-with-ava.git",
+  "author": "Max Gallo <massimiliano.gallo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-ava": "^4.2.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "ava"
+    ]
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/ava --verbose"
+  }
+}

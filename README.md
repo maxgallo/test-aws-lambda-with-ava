@@ -10,9 +10,9 @@ I started with a very basic Lambda function and its tests, and then I iterated o
 
 ### What's in the folder?
 
-- `WORLD-1-1` The Beginning
-- `WORLD-1-2` Time to go Async
-- `WORLD-1-3` Make it Fail
-- `WORLD-1-4` But our princess is in another castle
-- `BONUS LEVEL` Welcome to the Warp Zone!
+- `world-1-1` The Beginning
+- `world-1-2` Time to go Async
+- `world-1-3` Make it Fail
+- `world-1-4` But our princess is in another castle
+- `bonus-level` Welcome to the Warp Zone!
 
